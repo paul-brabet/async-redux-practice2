@@ -1,16 +1,18 @@
 import React from 'react'
 
 import ErrorMessage from './ErrorMessage'
-import LoadSubreddit from './LoadSubreddit'
-import SubredditList from './SubredditList'
+import SearchBox from './SearchBox'
+import CountryDetails from './CountryDetails'
 import WaitIndicator from './WaitIndicator'
+import SubmitButton from './SubmitButton'
 
 const App = () => (
   <div className='app'>
     <ErrorMessage />
-    <LoadSubreddit />
+    <SearchBox />
+    <SubmitButton />
     <WaitIndicator />
-    <SubredditList />
+    <CountryDetails />
   </div>
 )
 

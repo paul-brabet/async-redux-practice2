@@ -1,12 +1,13 @@
 import {combineReducers} from 'redux'
 
 import errorMessage from './error-message'
-import subreddits from './subreddits'
+import country from './country'
 import waiting from './waiting'
+import countryName from './country-name'
 
 export default combineReducers({
   errorMessage,
-  subreddits,
-  waiting
+  country,
+  waiting,
+  countryName
 })
-
